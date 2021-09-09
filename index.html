@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+    <head>
+        <title>Practical 2</title>
+        <style>
+            #question1, #question2, #question3, #question4{
+                justify-content: center;
+                text-align: center;
+                align-items: center;
+                table-layout: fixed;
+                width:100%;
+            }
+
+            #frame1, #frame7{
+                height:150px;
+                background-color:coral;
+            }
+
+            #frame2, #frame8{
+                height:300px;
+                background-color:cornflowerblue;
+            }
+
+            #frame3, #frame9, #frame10{
+                height:300px;
+                background-color:rgb(172, 50, 74);
+            }
+
+            #frame4{
+                height:500px;
+                background-color:lightpink;
+            }
+
+            #frame5{
+                height:250px;
+                background-color:lightslategrey;
+            }
+
+            #frame6, #frame13{
+                height:250px;
+                background-color:darkcyan;
+            }
+
+            #frame11, #frame12{
+                height:550px;
+                background-color:rgb(204, 18, 117);
+            }
+
+            #frame12{ background-color:rgb(0, 0, 209)}
+
+            td{
+                font-size:xx-large;
+                font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+                font-weight:800;
+            }
+        </style>
+    </head>
+    <body>
+        <table id="question1">
+            <tr colspan="2">
+                <td colspan=2 id="frame1">Frame 1</td>
+            </tr>
+            <tr>
+                <td id="frame2">Frame 2</td>
+                <td id="frame3">Frame 3</td>
+            </tr>
+        </table>
+        <table id="question2" border="1">
+            <tr>
+                <td rowspan="2" id="frame4">Frame 4</td>
+                <td id="frame5">Frame 5</td>
+            </tr>
+            <tr>
+                <td id="frame6"> Frame 6</td>
+            </tr>
+        </table>
+        <table id="question3">
+            <tr colspan="2">
+                <td colspan=2 id="frame7">Frame 7</td>
+            </tr>
+            <tr>
+                <td id="frame8">Frame 8</td>
+                <td id="frame9">Frame 9</td>
+            </tr>
+        </table>
+        <table id="question4">
+            <tr>
+                <td id="frame10">Frame 10</td>
+                <td rowspan="2" id="frame11">Frame 11</td>
+                <td rowspan="2" id="frame12">Frame 12</td>
+            </tr>
+            <tr>
+                <td id="frame13">Frame 13</td>
+            </tr>
+        </table>
+    </body>
+</html>
